@@ -12,5 +12,12 @@ namespace Tool1.Test
             int sum = Calc.Add(4, 5);
             Assert.AreEqual(9, sum, "Not equal");
         }
+
+        [TestMethod]
+        public void TestCalcSubtract()
+        {
+            int sum = Calc.Subtract(7, 5);
+            Assert.AreEqual(2, sum, "Not equal");
+        }
     }
 }
