@@ -16,7 +16,7 @@ namespace Tool1.Test
         [TestMethod]
         public void TestCalcSubtract()
         {
-            int sum = Calc.Add(7, 5);
+            int sum = Calc.Subtract(7, 5);
             Assert.AreEqual(2, sum, "Not equal");
         }
     }
