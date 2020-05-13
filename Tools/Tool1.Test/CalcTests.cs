@@ -14,6 +14,13 @@ namespace Tool1.Test
         }
 
         [TestMethod]
+        public void TestCalcAdd_Negative()
+        {
+            int sum = Calc.Add(10, 5);
+            Assert.AreNotEqual(20, sum, "Should not be equal");
+        }
+
+        [TestMethod]
         public void TestCalcSubtract()
         {
             int sum = Calc.Subtract(7, 5);
