@@ -21,6 +21,13 @@ namespace Tool1.Test
         }
 
         [TestMethod]
+        public void TestCalcSubtract2()
+        {
+            int sum = Calc.Subtract(8, 5);
+            Assert.AreEqual(3, sum, "Not equal");
+        }
+
+        [TestMethod]
         public void TestCalcMultiply()
         {
             int sum = Calc.Multiply(2, 5);
